@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Version>1.0.0-3.8.1</Version>
+        <Nullable>enable</Nullable>
+        <WarningsAsErrors>Nullable</WarningsAsErrors>
+        <Authors>Ben Hendel-Doying</Authors>
+        <Company>Ben Hendel-Doying</Company>
+        <Description>Additional color palettes, for use with MonoGame.</Description>
+        <Copyright>2021-2022 Ben Hendel-Doying</Copyright>
+        <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+        <PackageProjectUrl>https://github.com/BenMakesGames/MonoGame.Palettes</PackageProjectUrl>
+        <PackageTags>monogame color palette theme</PackageTags>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="..\LICENSE.md">
+            <Pack>True</Pack>
+            <PackagePath />
+        </None>
+    </ItemGroup>
+
+</Project>
