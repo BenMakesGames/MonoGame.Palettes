@@ -9,10 +9,10 @@ public static class DawnBringers16
     public static readonly Color DarkPurple = new(68, 36, 52);
     public static readonly Color DarkBlue = new(48, 52, 109);
     public static readonly Color DarkGray = new(78, 74, 78);
-    public static readonly Color DarkBrown = new(133, 76, 48);
+    public static readonly Color Brown = new(133, 76, 48);
     public static readonly Color DarkGreen = new(52, 101, 36);
     public static readonly Color Red = new(208, 70, 72);
-    public static readonly Color Brown = new(117, 113, 97);
+    public static readonly Color Gray = new(117, 113, 97);
     public static readonly Color Blue = new(89, 125, 206);
     public static readonly Color Orange = new(210, 125, 44);
     public static readonly Color LightGray = new(133, 149, 161);
@@ -21,4 +21,24 @@ public static class DawnBringers16
     public static readonly Color LightBlue = new(109, 194, 202);
     public static readonly Color Yellow = new(218, 212, 94);
     public static readonly Color White = new(222, 238, 214);
+
+    public static readonly Color[] Palette =
+    {
+        Black,
+        DarkPurple,
+        DarkBlue,
+        DarkGray,
+        Brown,
+        DarkGreen,
+        Red,
+        Gray,
+        Blue,
+        Orange,
+        LightGray,
+        Green,
+        Pink,
+        LightBlue,
+        Yellow,
+        White
+    };
 }
