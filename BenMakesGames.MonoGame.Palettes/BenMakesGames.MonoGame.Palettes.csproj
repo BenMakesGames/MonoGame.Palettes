@@ -1,19 +1,25 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <Version>2.0.0</Version>
-    <Nullable>enable</Nullable>
-    <WarningsAsErrors>Nullable</WarningsAsErrors>
     <Authors>Ben Hendel-Doying</Authors>
     <Company>Ben Hendel-Doying</Company>
-    <Description>Additional color palettes, for use with MonoGame.</Description>
-    <Copyright>2021-2022 Ben Hendel-Doying</Copyright>
+    <Description>Color palettes for classic gaming systems, for use with MonoGame.</Description>
+    <Copyright>2021-2023 Ben Hendel-Doying</Copyright>
+    <Version>2.1.0</Version>
+
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>monogame color palette theme</PackageTags>
+    <PackageProjectUrl>https://github.com/BenMakesGames/MonoGame.Palettes</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/BenMakesGames/MonoGame.Palettes</RepositoryUrl>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageProjectUrl>https://github.com/BenMakesGames/MonoGame.Palettes</PackageProjectUrl>
-    <PackageTags>monogame color palette theme</PackageTags>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIcon>package-icon.png</PackageIcon>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <WarningsAsErrors>Nullable</WarningsAsErrors>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,8 +27,29 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="../LICENSE.md" Pack="true" PackagePath="" />
-    <None Include="../README.md" Pack="true" PackagePath="" />
+    <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath />
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath />
+    </None>
+    <None Include="..\package-icon.png">
+      <Pack>True</Pack>
+      <PackagePath />
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AssemblyAttribute Include="CLSCompliantAttribute">
+      <_Parameter1>true</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
 </Project>
