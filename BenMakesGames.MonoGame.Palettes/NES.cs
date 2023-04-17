@@ -2,7 +2,10 @@ using Microsoft.Xna.Framework;
 
 namespace BenMakesGames.MonoGame.Palettes;
 
-// from http://www.romdetectives.com/Wiki/index.php?title=NES_Palette
+/// <summary>
+/// Nintendo Entertainment System palette.
+/// Source: http://www.romdetectives.com/Wiki/index.php?title=NES_Palette
+/// </summary>
 public static class NES
 {
     public static readonly Color[] Palette =

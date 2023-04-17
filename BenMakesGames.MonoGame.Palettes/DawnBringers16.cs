@@ -2,7 +2,10 @@
 
 namespace BenMakesGames.MonoGame.Palettes;
 
-// from https://pixeljoint.com/forum/forum_posts.asp?TID=12795
+/// <summary>
+/// DawnBringer's 16-color palette.
+/// Source: https://pixeljoint.com/forum/forum_posts.asp?TID=12795
+/// </summary>
 public static class DawnBringers16
 {
     public static readonly Color Black = new(20, 12, 28);

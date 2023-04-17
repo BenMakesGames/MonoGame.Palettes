@@ -2,7 +2,10 @@
 
 namespace BenMakesGames.MonoGame.Palettes;
 
-// from https://moddingwiki.shikadi.net/wiki/EGA_Palette#Default_Palette
+/// <summary>
+/// CGA 16 color palette.
+/// Source: https://moddingwiki.shikadi.net/wiki/EGA_Palette#Default_Palette
+/// </summary>
 public static class CGA16
 {
     public static readonly Color Black = new(0, 0, 0);

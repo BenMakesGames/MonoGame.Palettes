@@ -2,6 +2,9 @@
 
 namespace BenMakesGames.MonoGame.Palettes;
 
+/// <summary>
+/// Game Boy palette.
+/// </summary>
 public static class GameBoy
 {
     public static readonly Color Black = new(8, 24, 32);

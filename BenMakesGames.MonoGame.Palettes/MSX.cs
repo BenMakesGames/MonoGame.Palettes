@@ -2,7 +2,10 @@ using Microsoft.Xna.Framework;
 
 namespace BenMakesGames.MonoGame.Palettes;
 
-// from https://lospec.com/palette-list/msx
+/// <summary>
+/// MSX palette.
+/// Source: https://lospec.com/palette-list/msx
+/// </summary>
 public static class MSX
 {
     public static readonly Color Black = new(0, 0, 0);

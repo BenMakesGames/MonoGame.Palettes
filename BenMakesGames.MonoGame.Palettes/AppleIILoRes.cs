@@ -2,7 +2,10 @@ using Microsoft.Xna.Framework;
 
 namespace BenMakesGames.MonoGame.Palettes;
 
-// from http://mrob.com/pub/xapple2/colors.html
+/// <summary>
+/// Apple II lo-res palette.
+/// Source: http://mrob.com/pub/xapple2/colors.html
+/// </summary>
 public static class AppleIILoRes
 {
     public static readonly Color Black = new(0, 0, 0);

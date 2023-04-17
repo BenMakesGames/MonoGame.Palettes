@@ -2,6 +2,9 @@ using Microsoft.Xna.Framework;
 
 namespace BenMakesGames.MonoGame.Palettes;
 
+/// <summary>
+/// Apple II hi-res palette.
+/// </summary>
 public static class AppleIIHiRes
 {
     public static readonly Color Black = new(0, 0, 0);

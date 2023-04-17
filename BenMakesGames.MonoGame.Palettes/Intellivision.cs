@@ -2,7 +2,10 @@
 
 namespace BenMakesGames.MonoGame.Palettes;
 
-// from https://en.wikipedia.org/wiki/List_of_video_game_console_palettes
+/// <summary>
+/// Intellivision palette.
+/// Source: https://en.wikipedia.org/wiki/List_of_video_game_console_palettes
+/// </summary>
 public sealed class Intellivision
 {
     public static readonly Color Black = new(0x0C, 0, 0x05);
