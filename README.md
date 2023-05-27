@@ -1,6 +1,6 @@
 # What's This?
 
-`BenMakesGames.MonoGame.Palettes` is a collection of old-school computer & console system palettes, for use with MonoGame.
+A collection of old-school computer & console system palettes.
 
 [![Buy Me a Coffee at ko-fi.com](https://raw.githubusercontent.com/BenMakesGames/AssetsForNuGet/main/buymeacoffee.png)](https://ko-fi.com/A0A12KQ16)
 
