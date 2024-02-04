@@ -26,7 +26,7 @@ public static class AppleIILoRes
     public static readonly Color White = new(255, 255, 255);
 
     public static readonly Color[] Palette =
-    {
+    [
         Black,
         Red,
         DarkBlue,
@@ -43,5 +43,5 @@ public static class AppleIILoRes
         Yellow,
         Aqua,
         White
-    };
+    ];
 }

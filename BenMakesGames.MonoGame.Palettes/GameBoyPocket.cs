@@ -13,10 +13,10 @@ public static class GameBoyPocket
     public static readonly Color White = new(255, 255, 255);
 
     public static readonly Color[] Palette =
-    {
+    [
         Black,
         DarkGray,
         LightGray,
         White
-    };
+    ];
 }

@@ -4,8 +4,8 @@
     <Authors>Ben Hendel-Doying</Authors>
     <Company>Ben Hendel-Doying</Company>
     <Description>Color palettes for classic gaming systems, for use with MonoGame.</Description>
-    <Copyright>2021-2023 Ben Hendel-Doying</Copyright>
-    <Version>2.3.0</Version>
+    <Copyright>2021-2024 Ben Hendel-Doying</Copyright>
+    <Version>2.4.0</Version>
 
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageTags>monogame color palette theme</PackageTags>
@@ -20,6 +20,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <WarningsAsErrors>Nullable</WarningsAsErrors>
+    <LangVersion>default</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>

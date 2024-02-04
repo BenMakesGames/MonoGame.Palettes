@@ -13,10 +13,10 @@ public static class GameBoy
     public static readonly Color White = new(224, 248, 208);
 
     public static readonly Color[] Palette =
-    {
+    [
         Black,
         DarkGreen,
         Green,
         White
-    };
+    ];
 }

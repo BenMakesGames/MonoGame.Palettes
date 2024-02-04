@@ -9,7 +9,7 @@ namespace BenMakesGames.MonoGame.Palettes;
 public static class NES
 {
     public static readonly Color[] Palette =
-    {
+    [
         new(124, 124, 124),
         new(0, 0, 252),
         new(0, 0, 188),
@@ -73,6 +73,6 @@ public static class NES
         new(0, 252, 252),
         new(248, 216, 248),
         new(0, 0, 0),
-        new(0, 0, 0),
-    };
+        new(0, 0, 0)
+    ];
 }
