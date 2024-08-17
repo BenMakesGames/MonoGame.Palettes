@@ -4,7 +4,7 @@
         <Authors>Ben Hendel-Doying</Authors>
         <Company>Ben Hendel-Doying</Company>
         <Description>Color palettes for classic gaming systems, for use with MonoGame.</Description>
-        <Copyright>2021-2023 Ben Hendel-Doying</Copyright>
+        <Copyright>2021-2024 Ben Hendel-Doying</Copyright>
         <Version>1.1.0</Version>
 
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
