@@ -26,7 +26,7 @@ public static class DawnBringers16
     public static readonly Color White = new(222, 238, 214);
 
     public static readonly Color[] Palette =
-    {
+    [
         Black,
         DarkPurple,
         DarkBlue,
@@ -43,5 +43,5 @@ public static class DawnBringers16
         LightBlue,
         Yellow,
         White
-    };
+    ];
 }

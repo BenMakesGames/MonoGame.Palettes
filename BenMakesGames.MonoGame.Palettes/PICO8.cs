@@ -26,7 +26,7 @@ public static class PICO8
     public static readonly Color LightPeach = new(255, 204, 170);
 
     public static readonly Color[] Palette =
-    {
+    [
         Black,
         DarkBlue,
         DarkPurple,
@@ -43,5 +43,5 @@ public static class PICO8
         Lavender,
         Pink,
         LightPeach
-    };
+    ];
 }

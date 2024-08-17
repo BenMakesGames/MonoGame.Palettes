@@ -29,7 +29,7 @@ public sealed class Intellivision
     public static readonly Color Purple = new(0xC8, 0x1A, 0x7D);
 
     public static readonly Color[] Palette =
-    {
+    [
         Black,
         DarkBlue,
         Red,
@@ -46,6 +46,5 @@ public sealed class Intellivision
         Periwinkle,
         LightGreen,
         Purple
-    };
-
+    ];
 }

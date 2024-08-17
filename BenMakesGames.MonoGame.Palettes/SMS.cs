@@ -8,7 +8,7 @@ namespace BenMakesGames.MonoGame.Palettes;
 public static class SMS
 {
     public static readonly Color[] Palette =
-    {
+    [
         new(0, 0, 0),
         new(85, 0, 0),
         new(170, 0, 0),
@@ -72,6 +72,6 @@ public static class SMS
         new(0, 255, 255),
         new(85, 255, 255),
         new(170, 255, 255),
-        new(255, 255, 255), 
-    };
+        new(255, 255, 255)
+    ];
 }
